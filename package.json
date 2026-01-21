@@ -16,12 +16,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/BibleBites/bible-reference-index.git"
+        "url": "https://github.com/BibleBites/bible-reference.git"
     },
     "engines": {
         "node": ">=20"
     },
-    "homepage": "https://github.com/BibleBites/bible-reference-index",
+    "homepage": "https://github.com/BibleBites/bible-reference",
     "author": "BibleBites",
     "license": "MIT",
     "files": ["dist/*"],
