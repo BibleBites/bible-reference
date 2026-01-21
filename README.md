@@ -1,14 +1,14 @@
 <p align="center">
-    <a href="https://mybiblebytes.com/opensource">
-        <img src="https://github.com/BibleBytes/landing-page/blob/main/favicon/android-chrome-512x512.png" height="128px"/>
+    <a href="https://getbiblebites.com/opensource">
+        <img src="https://github.com/BibleBites/brand-kit/raw/main/media-photos/biblebites-favicon-rounded.png" height="100px"/>
         <h1 align="center">Bible Reference</h1>
     </a>
 </p>
 
 
 <p align="center">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/%40biblebytes%2Fbible-reference"/>
-    <img src="https://github.com/BibleBytes/bible-reference/actions/workflows/testing.yml/badge.svg"/>
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/%40biblebites%2Fbible-reference"/>
+    <img src="https://github.com/BibleBites/bible-reference/actions/workflows/testing.yml/badge.svg"/>
 </p>
 
 
@@ -25,7 +25,7 @@
 # Installation
 To install the package via npm, run:
 ```bash
-npm i @biblebytes/bible-reference
+npm i @biblebites/bible-reference
 ```
 
 
@@ -94,7 +94,7 @@ Reference ID strings support both book IDs and book names (with either a space o
  - `GEN:1:2-3` or `Genesis 1:2-3`
 
 ```typescript
-import { Reference, Language } from '@biblebytes/bible-reference';
+import { Reference, Language } from '@biblebites/bible-reference';
 
 const ref1 = new Reference(Language.English, "Exodus 2:3");
 console.log(ref1.toString()); // EXO:2:3

@@ -1,5 +1,5 @@
 {
-    "name": "@biblebytes/bible-reference",
+    "name": "@biblebites/bible-reference",
     "version": "0.0.0",
     "description": "Christian Bible reference library for indexing, referencing, and validating bible verses.",
     "exports": "./dist/index.js",
@@ -16,13 +16,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/BibleBytes/bible-reference-index.git"
+        "url": "https://github.com/BibleBites/bible-reference-index.git"
     },
     "engines": {
         "node": ">=20"
     },
-    "homepage": "https://github.com/BibleBytes/bible-reference-index",
-    "author": "BibleBytes",
+    "homepage": "https://github.com/BibleBites/bible-reference-index",
+    "author": "BibleBites",
     "license": "MIT",
     "files": ["dist/*"],
     "devDependencies": {
