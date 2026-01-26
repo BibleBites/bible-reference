@@ -29,7 +29,7 @@
         "@biomejs/biome": "1.9.4",
         "@types/chai": "^5.0.1",
         "@types/mocha": "^10.0.9",
-        "chai": "^5.1.2",
+        "chai": "^6.2.2",
         "cross-env": "^7.0.3",
         "esbuild": "^0.25.0",
         "mocha": "^11.1.0",
