@@ -30,7 +30,7 @@
         "@types/chai": "^5.0.1",
         "@types/mocha": "^10.0.9",
         "chai": "^6.2.2",
-        "cross-env": "^7.0.3",
+        "cross-env": "^10.1.0",
         "esbuild": "^0.25.0",
         "mocha": "^11.1.0",
         "ts-node": "^10.9.2",
