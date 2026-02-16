@@ -111,7 +111,7 @@ function bufferStartsWithBook(buffer: string, bookValue: string): boolean {
 
 function parseNumber(buffer: string | undefined): number | undefined {
     if (buffer) {
-        return Number.parseInt(buffer);
+        return Number.parseInt(buffer, 10);
     }
     return undefined;
 }

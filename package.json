@@ -24,7 +24,9 @@
     "homepage": "https://github.com/BibleBites/bible-reference",
     "author": "BibleBites",
     "license": "MIT",
-    "files": ["dist/*"],
+    "files": [
+        "dist/*"
+    ],
     "devDependencies": {
         "@biomejs/biome": "2.4.1",
         "@types/chai": "^5.0.1",

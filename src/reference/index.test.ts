@@ -1113,21 +1113,21 @@ describe("Unpack", () => {
         const verses = new Reference(Language.English, "GEN:1:1").unpack();
         expect(verses.length).to.equal(1);
         expect(verses[0].toString()).to.equal("GEN:1:1");
-        const verse = new Reference(Language.English, "GEN:1:1");
+        new Reference(Language.English, "GEN:1:1");
     });
 
     it("Unpack Exodus 3:14", () => {
         const verses = new Reference(Language.English, "EXO:3:14").unpack();
         expect(verses.length).to.equal(1);
         expect(verses[0].toString()).to.equal("EXO:3:14");
-        const verse = new Reference(Language.English, "EXO:3:14");
+        new Reference(Language.English, "EXO:3:14");
     });
 
     it("Unpack Psalms 119:105", () => {
         const verses = new Reference(Language.English, "PSA:119:105").unpack();
         expect(verses.length).to.equal(1);
         expect(verses[0].toString()).to.equal("PSA:119:105");
-        const verse = new Reference(Language.English, "PSA:119:105");
+        new Reference(Language.English, "PSA:119:105");
     });
 
     it("Unpack Genesis 1:1-4", () => {
@@ -1146,21 +1146,21 @@ describe("Unpack", () => {
         const verses = new Reference(Language.English, "MAT:28:19").unpack();
         expect(verses.length).to.equal(1);
         expect(verses[0].toString()).to.equal("MAT:28:19");
-        const verse = new Reference(Language.English, "MAT:28:19");
+        new Reference(Language.English, "MAT:28:19");
     });
 
     it("Unpack Romans 8:28", () => {
         const verses = new Reference(Language.English, "ROM:8:28").unpack();
         expect(verses.length).to.equal(1);
         expect(verses[0].toString()).to.equal("ROM:8:28");
-        const verse = new Reference(Language.English, "ROM:8:28");
+        new Reference(Language.English, "ROM:8:28");
     });
 
     it("Unpack Galatians 5:22", () => {
         const verses = new Reference(Language.English, "GAL:5:22").unpack();
         expect(verses.length).to.equal(1);
         expect(verses[0].toString()).to.equal("GAL:5:22");
-        const verse = new Reference(Language.English, "GAL:5:22");
+        new Reference(Language.English, "GAL:5:22");
     });
 
     it("Unpack Matthew 5:1-5", () => {
