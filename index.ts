@@ -10,9 +10,9 @@
  *
  */
 
-export * from "./src/index.js";
-export * from "./resources/index.js";
 export type * from "./resources/index.js";
+export * from "./resources/index.js";
+export * from "./src/index.js";
 
 // Dear children, keep yourselves from idols.
 // - 1 John 5:21
