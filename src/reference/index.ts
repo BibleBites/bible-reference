@@ -148,7 +148,7 @@ export class Reference {
             const metadata = GetBook(this.language, this.book);
             if (!metadata) {
                 throw new Error(
-                    `Error: Unable to obtain metadata for book ${this.book}`,
+                    `Error: Unable to obtain book metadata for "${this.book}"`,
                 );
             }
             buffer = `${metadata.name} `;
