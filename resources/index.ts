@@ -23,13 +23,13 @@ import type { BookMetadata } from "./utilities.js";
 export type { BookMetadata };
 
 export {
-    Testament,
     Book,
     Books,
-    BooksOldTestament,
     BooksNewTestament,
+    BooksOldTestament,
     Language,
     Metadata,
+    Testament,
 };
 
 // For this reason a man will leave his father and mother and be united to
