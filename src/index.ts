@@ -13,7 +13,7 @@
 import { GetAllBooks, GetBook } from "./book/index.js";
 import { Reference } from "./reference/index.js";
 
-export { GetBook, GetAllBooks, Reference };
+export { GetAllBooks, GetBook, Reference };
 
 // I seek you with all my heart; do not let me stray from your commands.
 // - Psalm 119:10
