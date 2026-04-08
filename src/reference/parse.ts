@@ -89,7 +89,7 @@ function parseBook(
         const metadata = GetBook(language, bookId);
         if (!metadata) {
             throw new Error(
-                `Error: Unable to obtain book metadata for "${this.book}"`,
+                `Error: Unable to obtain book metadata for "${bookId}"`,
             );
         }
         if (bufferStartsWithBook(buffer, metadata.name)) {
