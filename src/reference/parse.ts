@@ -85,11 +85,16 @@ function parseBook(
             };
         }
     }
-    for (const bookID of Books) {
-        const metadata = GetBook(language, bookID);
+    for (const bookId of Books) {
+        const metadata = GetBook(language, bookId);
+        if (!metadata) {
+            throw new Error(
+                `Error: Unable to obtain book metadata for "${bookId}"`,
+            );
+        }
         if (bufferStartsWithBook(buffer, metadata.name)) {
             return {
-                id: bookID as Book,
+                id: bookId,
                 value: metadata.name,
             };
         }
@@ -140,7 +145,7 @@ function validateReference(
         }
     }
 
-    if (reference.verseEnd !== undefined) {
+    if (reference.verse !== undefined && reference.verseEnd !== undefined) {
         if (
             reference.verseEnd <= reference.verse ||
             reference.verseEnd > lastVerseStart
