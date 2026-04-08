@@ -10,15 +10,15 @@
  *
  */
 
-import type { Book, Language } from "../../resources/index.js";
+import { Book, type Language } from "../../resources/index.js";
 import { GetBook } from "../book/index.js";
 import { parse } from "./parse.js";
 import { unpack } from "./unpack.js";
 
 export class Reference {
     private language: Language;
-    private book: Book;
-    private chapter: number;
+    private book: Book = Book.Genesis;
+    private chapter: number = 1;
     private verse?: number;
     private verseEnd?: number;
 
@@ -146,6 +146,11 @@ export class Reference {
         let buffer = `${this.book}:`;
         if (humanReadable) {
             const metadata = GetBook(this.language, this.book);
+            if (!metadata) {
+                throw new Error(
+                    `Error: Unable to obtain book metadata for "${this.book}"`,
+                );
+            }
             buffer = `${metadata.name} `;
         }
         buffer += this.chapter;
